@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <title>
+            assesment
+        </title>
+    </head>
+    <body bgcolor="black" style="color:white;font-size:40px;">
+        <script src="script.js"></script>
+        <form action="/done" method = "POST">
+            <label>    Name  </label>
+            <input type="text" name="fname" required><br>  <br>
+            <label>    Gender :  </label><br>  
+            <div>
+                <input type="radio" id="contactChoice1"
+                 name="contact" value="email">
+                <label for="contactChoice1">Male</label>
+            
+                <input type="radio" id="contactChoice2"
+                 name="contact" value="phone">
+                <label for="contactChoice2">Female</label>
+            
+                <input type="radio" id="contactChoice3"
+                 name="contact" value="mail">
+                <label for="contactChoice3">Others</label>
+              </div>
+           
+                <br>  
+            <label name="mnum">    Phone number :  </label><br>  
+            <select name="cars" id="cars">
+                <option value="india">+91(IN)</option>
+                <option value="us">+1(US)</option>
+                <option value="australia">+61(AUS)</option>
+                <option value="egypt">+20(EGY)</option>
+              </select> 
+            <input type="text" name="phone"/> <br> <br>  
+            <label>    Email :  </label>
+            <input type="email" id="email" name="email"/> <br>    
+            <br>     
+            <input type="submit" value="Submit" />  
+        </form>
+    </body>
+</html>
